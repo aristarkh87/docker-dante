@@ -1,7 +1,7 @@
 version: "3"
 services:
   dante:
-    image: registry.gitlab.com/aristarkh87/docker-dante
+    image: aristarkh87/docker-dante
     ports:
       - "5190:1080"
     volumes:
