@@ -24,8 +24,6 @@ RUN set -xe \
         && rm -rf $DANTE_TEMP \
     && apk del --purge .build-deps
 
-ADD sockd.conf /etc/sockd.conf
-
 EXPOSE 1080
 
 CMD ["sockd"]
