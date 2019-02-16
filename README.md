@@ -9,7 +9,7 @@ network connectivity.
 ## Quick Start
 
 ```
-docker run -v "$(pwd)/sockd.conf":"/etc/sockd.conf" -d -p 5190:1080 registry.gitlab.com/aristarkh87/docker-dante
+docker run -v "$(pwd)/sockd.conf":"/etc/sockd.conf" -d -p 5190:1080 aristarkh87/docker-dante
 ```
 
 ## Up and running
